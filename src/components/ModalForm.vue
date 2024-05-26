@@ -86,4 +86,42 @@ textarea {
     margin: 20px;
     overflow: hidden;
 }
+
+template{
+    overflow-y: hidden;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+    margin-bottom: -1rem;
+    margin-top: 75px;
+    height: 45rem;
+    background-color: rgb(84, 209, 0);
+    width: 100vw;
+    animation-name: show;
+    animation-duration: .5s;
+}
+
+#titulo{
+    margin-top: 1rem;
+    margin-left: .5rem;
+    width: 16rem;
+    font-size: 34px;
+}
+
+#texto{
+    font-size: 18px;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 37rem;
+    margin-bottom: 18rem;
+}
+
+@keyframes show {
+  from { margin-top: 1350px; }
+
+  to { margin-bottom: -2rem; }
+}
 </style>
