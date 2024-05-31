@@ -2,7 +2,7 @@
 import {db} from "../firebase";
 import {getDocs, collection, deleteDoc, doc} from "firebase/firestore";
 import {ref, onMounted} from "vue";
-import ModalForm from './ModalForm.vue';
+import ModalForm from '../components/ModalForm.vue';
 
 
 const tasks = ref([])
@@ -73,7 +73,7 @@ async function deleteData(id) {
   margin-top: -20px;
   width: 500px;
   height: 500px;
-  background-color: royalblue;
+  background: linear-gradient(45deg, royalblue, rgb(186, 130, 238)) ;
   /* background: #fff; */
   padding: 20px;
   border: 5px #fff solid;
